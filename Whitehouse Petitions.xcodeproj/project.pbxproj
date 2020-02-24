@@ -11,6 +11,7 @@
 		C84C1EF0240453DD001B2B53 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C1EEF240453DD001B2B53 /* Petitions.swift */; };
 		C84C1EF324045656001B2B53 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = C84C1EF124045656001B2B53 /* LICENSE.md */; };
 		C84C1EF424045656001B2B53 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C84C1EF224045656001B2B53 /* README.md */; };
+		C84C1EF62404573E001B2B53 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C1EF52404573E001B2B53 /* DetailViewController.swift */; };
 		C8519D6D240319C20099320F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8519D6C240319C20099320F /* AppDelegate.swift */; };
 		C8519D6F240319C20099320F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8519D6E240319C20099320F /* SceneDelegate.swift */; };
 		C8519D71240319C20099320F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8519D70240319C20099320F /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		C84C1EEF240453DD001B2B53 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 		C84C1EF124045656001B2B53 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		C84C1EF224045656001B2B53 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C84C1EF52404573E001B2B53 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C8519D69240319C20099320F /* Whitehouse Petitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whitehouse Petitions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8519D6C240319C20099320F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8519D6E240319C20099320F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				C8519D6C240319C20099320F /* AppDelegate.swift */,
 				C8519D6E240319C20099320F /* SceneDelegate.swift */,
 				C8519D70240319C20099320F /* ViewController.swift */,
+				C84C1EF52404573E001B2B53 /* DetailViewController.swift */,
 				C84C1EED24045323001B2B53 /* Petition.swift */,
 				C84C1EEF240453DD001B2B53 /* Petitions.swift */,
 				C8519D72240319C20099320F /* Main.storyboard */,
@@ -155,6 +158,7 @@
 				C8519D71240319C20099320F /* ViewController.swift in Sources */,
 				C84C1EEE24045323001B2B53 /* Petition.swift in Sources */,
 				C8519D6D240319C20099320F /* AppDelegate.swift in Sources */,
+				C84C1EF62404573E001B2B53 /* DetailViewController.swift in Sources */,
 				C8519D6F240319C20099320F /* SceneDelegate.swift in Sources */,
 				C84C1EF0240453DD001B2B53 /* Petitions.swift in Sources */,
 			);
