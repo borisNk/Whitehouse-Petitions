@@ -67,15 +67,17 @@ class ViewController: UITableViewController {
         
         ac.addTextField()
         let submitAction = UIAlertAction(title: "Submit", style: .default) { [weak ac] _ in
-            
-            if let filter = ac?.textFields![0].text {
-                if !filter.isEmpty {
-                    self.filteredPetitions = self.petitions.filter {"\($0)".lowercased().contains("\(filter)".lowercased()) }
-                } else {
-                    self.filteredPetitions = self.petitions
+            DispatchQueue.global().async {
+                if let filter = ac?.textFields![0].text {
+                    if !filter.isEmpty {
+                        self.filteredPetitions = self.petitions.filter {"\($0)".lowercased().contains("\(filter)".lowercased()) }
+                    } else {
+                        self.filteredPetitions = self.petitions
+                    }
+                    self.tableView.performSelector(onMainThread: #selector(UITableView.reloadData), with: nil, waitUntilDone: false)
                 }
-                self.tableView.reloadData()
             }
+            
         }
         ac.addAction(submitAction)
         present(ac, animated: true)
